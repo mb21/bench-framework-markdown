@@ -25,3 +25,9 @@ cd ../../nextjs-file-routing/my-app
 rm -rf node_modules && rm -rf package-lock.json
 npm cache clean --force # For benchmarking cold npm install
 time npm install
+
+echo "[bench] Install mastro"
+cd ../../mastro
+rm -rf deno.lock
+deno clean # For benchmarking cold deno install
+time deno install

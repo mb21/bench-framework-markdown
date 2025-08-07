@@ -17,4 +17,7 @@ nextjs-file-routing/my-app/_posts/*.md
 astro-with-mdx/my-astro-site/dist
 astro-with-mdx/my-astro-site/src/pages/posts/*.md
 
+mastro/dist
+mastro/posts/*.md
+
 # Prereleases
